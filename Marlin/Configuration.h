@@ -790,12 +790,12 @@
 // @section machine
 
 // The size of the print bed
-#define X_BED_SIZE 200
-#define Y_BED_SIZE 220
+#define X_BED_SIZE 215
+#define Y_BED_SIZE 214
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
 #define X_MIN_POS 0
-#define Y_MIN_POS -23
+#define Y_MIN_POS -20
 #define Z_MIN_POS 0
 #define X_MAX_POS X_BED_SIZE
 #define Y_MAX_POS Y_BED_SIZE
@@ -925,7 +925,7 @@
 
   // Set the boundaries for probing (where the probe can reach).
   #define LEFT_PROBE_BED_POSITION 20
-  #define RIGHT_PROBE_BED_POSITION 160
+  #define RIGHT_PROBE_BED_POSITION 180
   #define FRONT_PROBE_BED_POSITION 30
   #define BACK_PROBE_BED_POSITION 200
 
